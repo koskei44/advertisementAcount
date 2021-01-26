@@ -1,0 +1,83 @@
+<resources>
+    <string name="app_name">Advertisement Manager</string>
+    <string name="ok">OK</string>
+    <string name="cancel">CANCEL</string>
+
+    <string-array name="txtGroup">
+        <item>-Transfer From-</item>
+        <item>Current Balance</item>
+        <item>Savings Account</item>
+    </string-array>
+
+    <string-array name="txtGrouptopup">
+        <item>-Silver Advertisement-</item>
+        <item>One Week – Ksh.500</item>
+        <item> One Month – Ksh.1.700</item>
+        <item> 3 Months – Ksh. 4,500</item>
+        <item>6 Months – Ksh. 8,000</item>
+        <item>1 Year – Ksh. 14,000</item>
+
+
+        <item></item>
+    </string-array>
+
+    <string-array name="txtregion">
+        <item>-Region-</item>
+        <item>Region A</item>
+        <item>Region B</item>
+    </string-array>
+    <string-array name="txtgender">
+        <item>-Gender-</item>
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <string-array name="txtage">
+        <item>-Age-</item>
+        <item>18-29</item>
+        <item>30-49</item>
+        <item>50+</item>
+    </string-array>
+    <string-array name="txtbronze">
+        <item>-Bronze Advertisement-</item>
+        <item>One Week – Ksh.250</item>
+        <item>One Month – Ksh.850</item>
+        <item>One Month – Ksh.850</item>
+        <item>6 Months – Ksh. 4,000</item>
+    </string-array>
+    <string-array name="txtgold">
+        <item>-Gold Advertisement-</item>
+        <item> One Week – Ksh.7,500</item>
+        <item> One Month – Ksh.30,500</item>
+        <item> 3 Months – Ksh. 90,500</item>
+        <item> 6 Months – Ksh. 180,000</item>
+        <item> 1 Year – Ksh. 310,000</item>
+    </string-array>
+
+    <string-array name="county">
+        <item>-Select County-</item>
+        <item>Nairobi</item>
+        <item>Bomet</item>
+    </string-array>
+    <string-array name="constituency">
+        <item>-Select Constituency-</item>
+        <item>Starehe</item>
+        <item>Westlands</item>
+    </string-array>
+    <string-array name="ward">
+        <item>-Select Ward-</item>
+        <item>Kamukunji</item>
+        <item>Sotik</item>
+    </string-array>
+    <string-array name="type_string">
+        <item>QR Code</item>
+        <item>Barcode</item>
+        <item>Data Matrix</item>
+        <item>PDF 417</item>
+        <item>Barcode-39</item>
+        <item>Barcode-93</item>
+        <item>AZTEC</item>
+    </string-array>
+
+
+</resources>

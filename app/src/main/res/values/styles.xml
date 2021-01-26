@@ -1,0 +1,139 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimaryDark</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorPrimaryDark</item>
+        <item name="android:fontFamily">@font/sans_regular</item>
+        
+         <!--   color for the app bar -->
+        <!-- Used by MediaRouter -->
+    </style>
+
+    <style name="LightTheme" parent="Theme.AppCompat.Light">
+        <!--   color for the app bar -->
+        <item name="colorPrimary">@color/light_theme_primary</item>
+        <!--   darker variant for the status bar and contextual app bars -->
+        <item name="colorPrimaryDark">@color/light_theme_primary_dark</item>
+        <!--   theme UI controls like checkboxes and text fields -->
+        <item name="colorAccent">@color/light_theme_accent</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="DarkTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!--   color for the app bar -->
+        <item name="colorPrimary">@color/dark_theme_primary</item>
+        <!--   darker variant for the status bar and contextual app bars -->
+        <item name="colorPrimaryDark">@color/dark_theme_primary_dark</item>
+        <!--   theme UI controls like checkboxes and text fields -->
+        <item name="colorAccent">@color/dark_theme_accent</item>
+
+        <item name="android:windowBackground">@color/background_material_dark</item>
+        <item name="android:colorForeground">@color/foreground_material_dark</item>
+        <item name="android:colorForegroundInverse">@color/foreground_material_light</item>
+        <item name="android:colorBackground">@color/background_material_dark</item>
+        <item name="android:colorBackgroundCacheHint">@color/abc_background_cache_hint_selector_material_dark</item>
+
+        <item name="android:textColorPrimary">@color/abc_primary_text_material_dark</item>
+        <item name="android:textColorPrimaryInverse">@color/abc_primary_text_material_light</item>
+        <item name="android:textColorPrimaryDisableOnly">@color/abc_primary_text_disable_only_material_dark</item>
+        <item name="android:textColorSecondary">@color/abc_secondary_text_material_dark</item>
+        <item name="android:textColorSecondaryInverse">@color/abc_secondary_text_material_light</item>
+        <item name="android:textColorTertiary">@color/abc_secondary_text_material_dark</item>
+        <item name="android:textColorTertiaryInverse">@color/abc_secondary_text_material_light</item>
+        <item name="android:textColorHint">@color/bright_foreground_disabled_material_dark</item>
+        <item name="android:textColorHintInverse">@color/bright_foreground_disabled_material_light</item>
+        <item name="android:textColorHighlight">@color/highlighted_text_material_dark</item>
+
+        <item name="colorControlNormal">?android:attr/textColorSecondary</item>
+        <item name="colorControlHighlight">@color/ripple_material_dark</item>
+        <item name="colorButtonNormal">@color/button_material_dark</item>
+        <item name="colorSwitchThumbNormal">@color/switch_thumb_material_dark</item>
+
+        <!-- Used by MediaRouter -->
+        <item name="isLightTheme">false</item>
+    </style>
+    <style name="PinWidget" />
+
+    <style name="PinWidget.PinView" parent="Widget.AppCompat.EditText">
+        <item name="android:background">@null</item>
+        <item name="android:minHeight">0dp</item>
+        <item name="android:maxLines">1</item>
+
+    </style>
+    <style name="Divider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@color/colorPrimaryDark</item>
+
+    </style>
+    <style name="DialogStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">@color/yello</item>
+    </style>
+    <style name="actionBarTitle">
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:fontFamily">@font/sans_bold</item>
+        <item name="android:gravity">center</item>
+    </style><![CDATA[
+     
+
+    ]]><!-- Base application theme is the default theme. -->
+
+    <!-- Variation on the Light theme that turns off the title -->
+
+    <!-- EditTexts -->
+
+
+    CustomButton
+
+    <!-- CustomLabel -->
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="actionMenuTextColor">@color/title_text_alt</item>
+        <item name="android:actionMenuTextColor">@color/title_text_alt</item>
+    </style>
+
+    <style name="loginScreenHints">
+        <item name="android:fontFamily">@font/sans_bold</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    /****Below is the code for Runtime Permission Alert Dialog***************/
+
+    <style name="MyAlertDialogStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <!-- Used for the buttons -->
+        <item name="colorAccent">#000000</item>
+        <!-- Used for the title and text -->
+        <item name="android:textColorPrimary">#000000</item>
+        <!-- Used for the background -->
+        <item name="android:background">#FFFFFF</item>
+    </style>
+    <style name="DatePickerSpinner">
+        <item name="android:textSize">22dp</item>
+        <item name="android:textColorPrimary">@color/colorPrimaryDark</item>
+        <item name="android:colorControlNormal" tools:targetApi="lollipop">@color/colorAccent</item>
+    </style>
+    <style name="editTextViewAll">
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@font/sans_regular</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:background">@android:color/black</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:textColorHint">@color/grey_200</item>
+    </style><![CDATA[
+
+
+
+
+     
+
+    ]]><!--styles for profile-->
+
+</resources>
